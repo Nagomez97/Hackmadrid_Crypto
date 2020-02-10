@@ -1,0 +1,8 @@
+~ Neo se aproxima al Oraculo, pero parece que lo que intenta decirle escapa a su comprension...
+El mensaje secreto es
+91ca4a88d1173ef4e29745352170a19db57f43e67966e9b1854a084417f7556db7054ab77544bbd914cf9379d4bdcbad2d29943a1dd7d080e4b0b839fd97b9b9
+
+Para comunicarte con el Oraculo:
+http://127.0.0.1:5000/encrypt?plain=MensajeQueQuieresCifrar
+
+http://127.0.0.1:5000/echo?cipher=mensajeCifrado

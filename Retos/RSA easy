@@ -1,0 +1,7 @@
+e = 65537
+N = 25693197123978473
+enc_flag = ['0xee729431b7a4a', '0x58030972cfaf5', '0x5ad5a69787f206', '0x24032ca73c87a2', '0xbd330bf095ff2', '0x377f4f35c739e0', '0x462afbd8294286', '0x194b8f42377c12']
+
+Hemos interceptado un mensaje sospechoso, pero no sabemos si tenemos la informacion necesaria para descifrarlo...
+
+

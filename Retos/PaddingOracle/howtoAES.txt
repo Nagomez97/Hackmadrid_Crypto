@@ -1,0 +1,14 @@
+Se trata de un Padding Oracle Attack.
+Si nos conectamos al server, podremos cifrar y hacer checks. Si el padding es incorrecto, da un error.
+Por tanto, podemos hacer el ataque descrito aqui
+https://robertheaton.com/2013/07/29/padding-oracle-attack/
+
+Una implementacion de este ataque es 
+https://github.com/AonCyberLabs/PadBuster
+
+Para correr hace falta instalar esto
+sudo apt-get install libcrypt-ssleay-perl
+
+Y despues
+perl padBuster.pl "http://127.0.0.1:5000/echo?cipher=715abdc275df4bc66a0292c810ca07e3f4c7c28afdc7912d3671eb283643247b178f29187415958b0ce914533fa496aa" "715abdc275df4bc66a0292c810ca07e3f4c7c28afdc7912d3671eb283643247b178f29187415958b0ce914533fa496aa" 16 -encoding 1
+
