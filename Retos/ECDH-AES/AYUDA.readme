@@ -1,0 +1,15 @@
+Hemos interceptado una comunicacion sospechosa entre sospechosos de una conocida red terrorista.
+Parece ser que emplean tecnicas de cifrado avanzadas, pero creemos que no se fian de las librarias mas conocidas... Seras capaz de descifrar el mensaje?
+
+# The curve is y^2 = x^3 + ax + b
+a = 1234577
+b = 3213242
+M = 7654319
+
+P = (5234568, 2287747) # A point in the curve
+
+Bob_pub = (2117949, 6309910)
+Alice_pub = (422105, 2014597)
+
+# Secret message
+J31ueow1irdvyJ+1aGszetQAozbFFfK8q9hmT4ygOvytezpzJWnEE0eDjVAh5Loe
